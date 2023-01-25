@@ -99,6 +99,21 @@ h1 {
 
 .brand {
     font-weight: bold;
+    font-size: 20px;
+    border-block-start-color: blue;
+    border-block-end-color: wheat;
+    border: solid;
+    background: linear-gradient(
+        90deg,
+        rgb(9, 5, 97) 0%,
+        rgba(138, 12, 212, .1) 100%
+    );
+    border-radius: 10px;
+    border-style: groove;
+    display: flex;
+    position: relative;
+    background-color: rgb(45, 53, 53);
+    padding: 10px;
 }
 
 /*-- MOVIE */
