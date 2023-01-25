@@ -80,8 +80,8 @@ function App() {
         <div className="App">
             <header className="center-max-size header">
                 <span className={"brand"}>Movie Trailer App</span>
-                <form className="form" onSubmit={fetchMovies}>
-                    <input className="search" type="text" id="search"
+                <form className="form" onSubmit={fetchMovies} >
+                    <input className="search" type="text" id="search" placeholder="search"
                            onInput={(event) => setSearchKey(event.target.value)}/>
                     <button className="submit-search" type="submit"><i className="fa fa-search"></i></button>
                 </form>
